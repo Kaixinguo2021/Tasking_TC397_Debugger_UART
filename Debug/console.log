@@ -1,0 +1,341 @@
+
+**** Build of configuration Debug for project Tasking_TC397_Debugger_UART ****
+
+"D:\\App\\Tasking6_3_Install\\ctc\\bin\\amk" -j8 all -a 
+Compiling Ifx_Cfg_Ssw.c
+Compiling Ifx_Cfg_SswBmhd.c
+Compiling Ifx_InterfaceConst.c
+Compiling sync_on_halt.c
+Compiling Cpu0_Main.c
+Compiling Cpu1_Main.c
+Compiling Cpu2_Main.c
+Compiling Cpu3_Main.c
+Compiling Cpu4_Main.c
+Compiling Cpu5_Main.c
+Compiling Multicore.c
+Compiling cpuport.c
+Compiling clock.c
+ctc W557: ["..\0_Src\0_AppSw\Tricore\Main\Cpu3_Main.c" 46/12] possible infinite loop
+0 errors, 1 warnings
+Compiling components.c
+ctc W505: ["..\0_Src\0_AppSw\Tricore\Main\Cpu0_Main.c" 62/2] implicit declaration of function "rtthread_startup"
+ctc W577: ["..\0_Src\0_AppSw\Tricore\Main\Cpu0_Main.c" 62/18] calling a function without a prototype
+ctc W557: ["..\0_Src\0_AppSw\Tricore\Main\Cpu0_Main.c" 63/12] possible infinite loop
+0 errors, 3 warnings
+Compiling cpu.c
+ctc W524: ["..\0_Src\0_AppSw\Tricore\Main\Cpu1_Main.c" 60/65] conversion of integer to pointer at argument #3
+ctc W557: ["..\0_Src\0_AppSw\Tricore\Main\Cpu1_Main.c" 66/12] possible infinite loop
+0 errors, 2 warnings
+Compiling device.c
+ctc W557: ["..\0_Src\0_AppSw\Tricore\Main\Cpu4_Main.c" 46/12] possible infinite loop
+0 errors, 1 warnings
+Compiling idle.c
+ctc W557: ["..\0_Src\0_AppSw\Tricore\Main\Cpu5_Main.c" 46/12] possible infinite loop
+0 errors, 1 warnings
+Compiling ipc.c
+Compiling irq.c
+Compiling kservice.c
+ctc W577: ["..\0_Src\0_AppSw\Tricore\rt-thread\src\cpu.c" 26/36] calling a function without a prototype
+ctc W577: ["..\0_Src\0_AppSw\Tricore\rt-thread\src\cpu.c" 51/36] calling a function without a prototype
+ctc W577: ["..\0_Src\0_AppSw\Tricore\rt-thread\src\cpu.c" 94/36] calling a function without a prototype
+ctc W577: ["..\0_Src\0_AppSw\Tricore\rt-thread\src\cpu.c" 131/36] calling a function without a prototype
+0 errors, 4 warnings
+Compiling mem.c
+Compiling memheap.c
+ctc W537: ["..\0_Src\0_AppSw\Tricore\rt-thread\src\components.c" 198/25] unused variable "timer1"
+ctc W536: ["..\0_Src\0_AppSw\Tricore\rt-thread\src\components.c" 200/13] unused static function "timeout1"
+0 errors, 2 warnings
+Compiling mempool.c
+Compiling object.c
+ctc W577: ["..\0_Src\0_AppSw\Tricore\rt-thread\libcpu\cpuport.c" 92/36] calling a function without a prototype
+ctc W523: ["..\0_Src\0_AppSw\Tricore\rt-thread\libcpu\cpuport.c" 103/20] pointers to different types at assignment
+ctc W577: ["..\0_Src\0_AppSw\Tricore\rt-thread\libcpu\cpuport.c" 125/36] calling a function without a prototype
+ctc W523: ["..\0_Src\0_AppSw\Tricore\rt-thread\libcpu\cpuport.c" 136/20] pointers to different types at assignment
+ctc W505: ["..\0_Src\0_AppSw\Tricore\rt-thread\libcpu\cpuport.c" 171/9] implicit declaration of function "rt_scheduler_do_irq_switch"
+ctc W577: ["..\0_Src\0_AppSw\Tricore\rt-thread\libcpu\cpuport.c" 171/35] calling a function without a prototype
+ctc W505: ["..\0_Src\0_AppSw\Tricore\rt-thread\libcpu\cpuport.c" 194/9] implicit declaration of function "rt_scheduler_do_irq_switch"
+ctc W577: ["..\0_Src\0_AppSw\Tricore\rt-thread\libcpu\cpuport.c" 194/35] calling a function without a prototype
+ctc W577: ["..\0_Src\0_AppSw\Tricore\rt-thread\libcpu\cpuport.c" 265/45] calling a function without a prototype
+ctc W577: ["..\0_Src\0_AppSw\Tricore\rt-thread\libcpu\cpuport.c" 272/45] calling a function without a prototype
+ctc W577: ["..\0_Src\0_AppSw\Tricore\rt-thread\libcpu\cpuport.c" 291/45] calling a function without a prototype
+ctc W577: ["..\0_Src\0_AppSw\Tricore\rt-thread\libcpu\cpuport.c" 298/45] calling a function without a prototype
+ctc W577: ["..\0_Src\0_AppSw\Tricore\rt-thread\libcpu\cpuport.c" 318/45] calling a function without a prototype
+ctc W577: ["..\0_Src\0_AppSw\Tricore\rt-thread\libcpu\cpuport.c" 338/45] calling a function without a prototype
+ctc W523: ["..\0_Src\0_AppSw\Tricore\rt-thread\libcpu\cpuport.c" 546/21] pointers to different types at assignment
+ctc W523: ["..\0_Src\0_AppSw\Tricore\rt-thread\libcpu\cpuport.c" 551/23] pointers to different types at assignment
+ctc W505: ["..\0_Src\0_AppSw\Tricore\rt-thread\libcpu\cpuport.c" 575/5] implicit declaration of function "memset"
+ctc W577: ["..\0_Src\0_AppSw\Tricore\rt-thread\libcpu\cpuport.c" 575/11] calling a function without a prototype
+ctc W577: ["..\0_Src\0_AppSw\Tricore\rt-thread\libcpu\cpuport.c" 583/11] calling a function without a prototype
+ctc W537: ["..\0_Src\0_AppSw\Tricore\rt-thread\libcpu\cpuport.c" 260/15] unused variable "level"
+ctc W588: ["..\0_Src\0_AppSw\Tricore\rt-thread\libcpu\cpuport.c" 341/12] dead assignment to "to" eliminated
+ctc W588: ["..\0_Src\0_AppSw\Tricore\rt-thread\libcpu\cpuport.c" 321/12] dead assignment to "to" eliminated
+ctc W547: ["..\0_Src\0_AppSw\Tricore\rt-thread\libcpu\cpuport.c" 251/51] undefined enum value
+0 errors, 23 warnings
+Compiling scheduler.c
+ctc W560: ["..\0_Src\0_AppSw\Tricore\rt-thread\src\irq.c" 114/9] possible truncation at implicit conversion to type "unsigned char"
+0 errors, 1 warnings
+Compiling signal.c
+Compiling slab.c
+Compiling thread.c
+ctc W588: ["..\0_Src\0_AppSw\Tricore\rt-thread\src\memheap.c" 569/19] dead assignment to "new_ptr" eliminated
+0 errors, 1 warnings
+Compiling timer.c
+ctc W553: ["..\0_Src\0_AppSw\Tricore\rt-thread\src\kservice.c" 983/9] no 'break' or comment before case label
+ctc W553: ["..\0_Src\0_AppSw\Tricore\rt-thread\src\kservice.c" 990/9] no 'break' or comment before case label
+ctc W560: ["..\0_Src\0_AppSw\Tricore\rt-thread\src\kservice.c" 1243/37] possible truncation at implicit conversion to type "signed short int"
+ctc W588: ["..\0_Src\0_AppSw\Tricore\rt-thread\src\kservice.c" 1221/16] dead assignment to "length" eliminated
+0 errors, 4 warnings
+Compiling UART_Logging.c
+Compiling SpiIf.c
+Compiling IfxStdIf_DPipe.c
+ctc W560: ["..\0_Src\0_AppSw\Tricore\rt-thread\src\scheduler.c" 245/22] possible truncation at implicit conversion to type "unsigned char"
+ctc W560: ["..\0_Src\0_AppSw\Tricore\rt-thread\src\scheduler.c" 348/30] possible truncation at implicit conversion to type "unsigned char"
+ctc W560: ["..\0_Src\0_AppSw\Tricore\rt-thread\src\scheduler.c" 597/30] possible truncation at implicit conversion to type "unsigned char"
+ctc W577: ["..\0_Src\0_AppSw\Tricore\rt-thread\src\scheduler.c" 840/36] calling a function without a prototype
+ctc W577: ["..\0_Src\0_AppSw\Tricore\rt-thread\src\scheduler.c" 902/36] calling a function without a prototype
+0 errors, 5 warnings
+Compiling IfxStdIf_Pos.c
+Compiling IfxStdIf_PwmHl.c
+Compiling IfxStdIf_Timer.c
+ctc W577: ["..\0_Src\0_AppSw\Tricore\rt-thread\src\thread.c" 297/35] calling a function without a prototype
+ctc W507: ["..\0_Src\0_AppSw\Tricore\rt-thread\src\thread.c" 729/20] variable "rt_err" is possibly uninitialized
+0 errors, 2 warnings
+Compiling Assert.c
+Compiling Bsp.c
+ctc W549: ["..\0_Src\0_AppSw\Tricore\rt-thread\src\timer.c" 383/21] condition is always false
+ctc W529: ["..\0_Src\0_AppSw\Tricore\rt-thread\src\timer.c" 399/68] overflow in constant expression of type "unsigned int"
+ctc W529: ["..\0_Src\0_AppSw\Tricore\rt-thread\src\timer.c" 400/72] overflow in constant expression of type "unsigned int"
+ctc W529: ["..\0_Src\0_AppSw\Tricore\rt-thread\src\timer.c" 400/41] overflow in constant expression of type "unsigned int"
+0 errors, 4 warnings
+Compiling Ifx_Console.c
+Compiling Ifx_Shell.c
+Compiling Ifx_GlobalResources.c
+Compiling Ifx_AngleTrkF32.c
+ctc W505: ["..\0_Src\0_AppSw\Tricore\UART\UART_Logging.c" 118/14] implicit declaration of function "rt_vsnprintf"
+ctc W577: ["..\0_Src\0_AppSw\Tricore\UART\UART_Logging.c" 118/26] calling a function without a prototype
+ctc W560: ["..\0_Src\0_AppSw\Tricore\UART\UART_Logging.c" 126/37] possible truncation at implicit conversion to type "signed short int"
+ctc W588: ["..\0_Src\0_AppSw\Tricore\UART\UART_Logging.c" 120/16] dead assignment to "length" eliminated
+0 errors, 4 warnings
+Compiling Ifx_Cf32.c
+Compiling Ifx_Crc.c
+Compiling Ifx_FftF32.c
+Compiling Ifx_FftF32_BitReverseTable.c
+Compiling Ifx_FftF32_TwiddleTable.c
+Compiling Ifx_IntegralF32.c
+ctc W549: ["..\0_Src\1_SrvSw\SysSe\Math\Ifx_AngleTrkF32.c" 184/62] condition is always false
+0 errors, 1 warnings
+Compiling Ifx_LowPassPt1.c
+Compiling Ifx_LowPassPt1F32.c
+Compiling Ifx_LutAtan2F32.c
+ctc W529: ["..\0_Src\1_SrvSw\SysSe\Math\Ifx_Crc.c" 338/20] overflow in constant expression of type "unsigned long int"
+ctc W529: ["..\0_Src\1_SrvSw\SysSe\Math\Ifx_Crc.c" 345/20] overflow in constant expression of type "unsigned long int"
+ctc W529: ["..\0_Src\1_SrvSw\SysSe\Math\Ifx_Crc.c" 372/20] overflow in constant expression of type "unsigned long int"
+ctc W529: ["..\0_Src\1_SrvSw\SysSe\Math\Ifx_Crc.c" 379/20] overflow in constant expression of type "unsigned long int"
+ctc W529: ["..\0_Src\1_SrvSw\SysSe\Math\Ifx_Crc.c" 406/20] overflow in constant expression of type "unsigned long int"
+ctc W529: ["..\0_Src\1_SrvSw\SysSe\Math\Ifx_Crc.c" 413/20] overflow in constant expression of type "unsigned long int"
+0 errors, 6 warnings
+Compiling Ifx_LutAtan2F32_Table.c
+Compiling Ifx_LutLinearF32.c
+Compiling Ifx_LutLSincosF32.c
+Compiling Ifx_LutSincosF32.c
+Compiling Ifx_LutSincosF32_Table.c
+Compiling Ifx_RampF32.c
+Compiling Ifx_WndF32_BlackmanHarrisTable.c
+Compiling Ifx_WndF32_HannTable.c
+ctc W587: ["..\0_Src\1_SrvSw\SysSe\Math\Ifx_LutAtan2F32_Table.c" 55/5] underflow on constant of type "float"
+0 errors, 1 warnings
+Compiling Ifx_DateTime.c
+Compiling CompilerDcc.c
+Compiling CompilerGhs.c
+Compiling CompilerGnuc.c
+Compiling CompilerTasking.c
+Compiling Ifx_Ssw_Infra.c
+Compiling Ifx_Ssw_Tc0.c
+Compiling Ifx_Ssw_Tc1.c
+Compiling Ifx_Ssw_Tc2.c
+Compiling Ifx_Ssw_Tc3.c
+Compiling Ifx_Ssw_Tc4.c
+Compiling Ifx_Ssw_Tc5.c
+Compiling IfxAsclin_cfg.c
+Compiling IfxCan_cfg.c
+Compiling IfxCcu6_cfg.c
+Compiling IfxCif_cfg.c
+Compiling IfxCpu_cfg.c
+Compiling IfxDma_cfg.c
+Compiling IfxEmem_cfg.c
+Compiling IfxEray_cfg.c
+Compiling IfxEvadc_cfg.c
+Compiling IfxFlash_cfg.c
+Compiling IfxGeth_cfg.c
+Compiling IfxGtm_cfg.c
+Compiling IfxHspdm_cfg.c
+Compiling IfxHssl_cfg.c
+Compiling IfxI2c_cfg.c
+Compiling IfxMsc_cfg.c
+Compiling IfxMtu_cfg.c
+Compiling IfxMultican_cfg.c
+Compiling IfxPort_cfg.c
+Compiling IfxPsi5_cfg.c
+Compiling IfxQspi_cfg.c
+Compiling IfxRif_cfg.c
+Compiling IfxScu_cfg.c
+Compiling IfxSent_cfg.c
+Compiling IfxSmu_cfg.c
+Compiling IfxSpu_cfg.c
+Compiling IfxSrc_cfg.c
+Compiling IfxStm_cfg.c
+Compiling Ifx_CircularBuffer.asm.c
+Compiling Ifx_CircularBuffer.c
+Compiling Ifx_Fifo.c
+Compiling Ifx_InternalMux.c
+Compiling IfxAsclin_PinMap.c
+Compiling IfxCan_PinMap.c
+Compiling IfxCcu6_PinMap.c
+Compiling IfxDmu_PinMap.c
+Compiling IfxEdsadc_PinMap.c
+Compiling IfxEray_PinMap.c
+Compiling IfxEvadc_PinMap.c
+Compiling IfxGeth_PinMap.c
+Compiling IfxGpt12_PinMap.c
+Compiling IfxGtm_PinMap.c
+Compiling IfxHspdm_PinMap.c
+Compiling IfxI2c_PinMap.c
+Compiling IfxMsc_PinMap.c
+Compiling IfxPms_PinMap.c
+Compiling IfxPort_PinMap.c
+Compiling IfxPsi5_PinMap.c
+Compiling IfxPsi5s_PinMap.c
+Compiling IfxQspi_PinMap.c
+Compiling IfxRif_PinMap.c
+Compiling IfxScu_PinMap.c
+Compiling IfxSdmmc_PinMap.c
+Compiling IfxSent_PinMap.c
+Compiling IfxSmu_PinMap.c
+Compiling IfxAsclin_Asc.c
+Compiling IfxAsclin_Lin.c
+Compiling IfxAsclin_Spi.c
+Compiling IfxAsclin.c
+Compiling IfxCan_Can.c
+Compiling IfxCan.c
+Compiling IfxCcu6_Icu.c
+Compiling IfxCcu6_PwmBc.c
+Compiling IfxCcu6_PwmHl.c
+Compiling IfxCcu6.c
+Compiling IfxCcu6_Timer.c
+Compiling IfxCcu6_TimerWithTrigger.c
+Compiling IfxCcu6_TPwm.c
+Compiling IfxConvctrl.c
+Compiling IfxCpu_Irq.c
+Compiling IfxCpu.c
+Compiling IfxCpu_Trap.c
+Compiling IfxDma_Dma.c
+Compiling IfxDma.c
+Compiling IfxDts_Dts.c
+Compiling IfxDts.c
+Compiling IfxEbu_BFlashSpansion.c
+Compiling IfxEbu_BFlashSt.c
+Compiling IfxEbu_Dram.c
+Compiling IfxEbu_Sram.c
+Compiling IfxEbu.c
+Compiling IfxEdsadc_Edsadc.c
+Compiling IfxEdsadc.c
+Compiling IfxEmem.c
+Compiling IfxEray_Eray.c
+Compiling IfxEray.c
+Compiling IfxEvadc_Adc.c
+Compiling IfxEvadc.c
+Compiling IfxFce_Crc.c
+Compiling IfxFce.c
+Compiling IfxFlash.c
+Compiling IfxGeth_Eth.c
+Compiling IfxGeth.c
+Compiling IfxGpt12_IncrEnc.c
+Compiling IfxGpt12.c
+Compiling IfxGtm_Atom_Dtm_PwmHl.c
+Compiling IfxGtm_Atom_Pwm.c
+Compiling IfxGtm_Atom_PwmHl.c
+Compiling IfxGtm_Atom_Timer.c
+Compiling IfxGtm.c
+Compiling IfxGtm_Atom.c
+Compiling IfxGtm_Cmu.c
+Compiling IfxGtm_Dpll.c
+Compiling IfxGtm_Dtm.c
+ctc W560: ["..\0_Src\4_McHal\Tricore\Gtm\Atom\Dtm_PwmHl\IfxGtm_Atom_Dtm_PwmHl.c" 323/104] possible truncation at implicit conversion to type "float"
+0 errors, 1 warnings
+Compiling IfxGtm_Psm.c
+Compiling IfxGtm_Spe.c
+Compiling IfxGtm_Tbu.c
+Compiling IfxGtm_Tim.c
+Compiling IfxGtm_Tom.c
+Compiling IfxGtm_Tim_In.c
+Compiling IfxGtm_Tim_Timer.c
+ctc W549: ["..\0_Src\4_McHal\Tricore\Gtm\Std\IfxGtm_Dtm.c" 101/28] condition is always true
+0 errors, 1 warnings
+Compiling IfxGtm_Tom_Dtm_PwmHl.c
+Compiling IfxGtm_Tom_Pwm.c
+Compiling IfxGtm_Tom_PwmHl.c
+Compiling IfxGtm_Tom_Timer.c
+Compiling IfxGtm_Trig.c
+Compiling IfxHspdm.c
+Compiling IfxHssl_Hssl.c
+Compiling IfxHssl.c
+Compiling IfxI2c_I2c.c
+ctc W532: ["..\0_Src\4_McHal\Tricore\Gtm\Tom\Dtm_PwmHl\IfxGtm_Tom_Dtm_PwmHl.c" 182/26] incompatible enum types at assignment
+ctc W532: ["..\0_Src\4_McHal\Tricore\Gtm\Tom\Dtm_PwmHl\IfxGtm_Tom_Dtm_PwmHl.c" 189/104] incompatible enum types at argument #1
+ctc W532: ["..\0_Src\4_McHal\Tricore\Gtm\Tom\Dtm_PwmHl\IfxGtm_Tom_Dtm_PwmHl.c" 189/141] incompatible enum types at argument #1
+ctc W532: ["..\0_Src\4_McHal\Tricore\Gtm\Tom\Dtm_PwmHl\IfxGtm_Tom_Dtm_PwmHl.c" 189/173] incompatible enum types at argument #2
+ctc W532: ["..\0_Src\4_McHal\Tricore\Gtm\Tom\Dtm_PwmHl\IfxGtm_Tom_Dtm_PwmHl.c" 203/64] incompatible enum types at argument #3
+ctc W532: ["..\0_Src\4_McHal\Tricore\Gtm\Tom\Dtm_PwmHl\IfxGtm_Tom_Dtm_PwmHl.c" 212/98] incompatible enum types at argument #1
+ctc W532: ["..\0_Src\4_McHal\Tricore\Gtm\Tom\Dtm_PwmHl\IfxGtm_Tom_Dtm_PwmHl.c" 239/103] incompatible enum types at argument #1
+ctc W532: ["..\0_Src\4_McHal\Tricore\Gtm\Tom\Dtm_PwmHl\IfxGtm_Tom_Dtm_PwmHl.c" 239/140] incompatible enum types at argument #1
+ctc W532: ["..\0_Src\4_McHal\Tricore\Gtm\Tom\Dtm_PwmHl\IfxGtm_Tom_Dtm_PwmHl.c" 239/161] incompatible enum types at argument #2
+ctc W560: ["..\0_Src\4_McHal\Tricore\Gtm\Tom\Dtm_PwmHl\IfxGtm_Tom_Dtm_PwmHl.c" 324/104] possible truncation at implicit conversion to type "float"
+0 errors, 10 warnings
+Compiling IfxI2c.c
+Compiling IfxIom_Driver.c
+Compiling IfxIom_Iom.c
+Compiling IfxIom.c
+Compiling IfxMsc_Msc.c
+Compiling IfxMsc.c
+Compiling IfxMtu.c
+Compiling IfxPmsEvr.c
+Compiling IfxPmsPm.c
+Compiling IfxPort_Io.c
+Compiling IfxPort.c
+Compiling IfxPsi5_Psi5.c
+Compiling IfxPsi5.c
+Compiling IfxPsi5s_Psi5s.c
+Compiling IfxPsi5s.c
+Compiling IfxQspi_SpiMaster.c
+Compiling IfxQspi_SpiSlave.c
+Compiling IfxQspi.c
+Compiling IfxRif_Rif.c
+Compiling IfxRif.c
+Compiling IfxScuCcu.c
+Compiling IfxScuEru.c
+Compiling IfxScuLbist.c
+Compiling IfxScuRcu.c
+Compiling IfxScuWdt.c
+Compiling IfxSdmmc_Emmc.c
+Compiling IfxSdmmc_Sd.c
+Compiling IfxSdmmc.c
+Compiling IfxSent_Sent.c
+Compiling IfxSent.c
+Compiling IfxSmu_Smu.c
+Compiling IfxSmu.c
+Compiling IfxSmuStdby.c
+Compiling IfxSpu.c
+Compiling IfxSrc.c
+Compiling IfxStm.c
+Compiling IfxStm_Timer.c
+Linking to Tasking_TC397_Debugger_UART.elf
+
+Time consumed: 169471 ms
+**** End of build ****
+
+Tool info: 
+TASKING VX-toolset for TriCore: control program v6.3r1 Build 19041558
+TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 09003382
+TASKING VX-toolset for TriCore: assembler v6.3r1 Build 19041558
+TASKING program builder v6.3r1 Build 19041558
+TASKING VX-toolset for TriCore: object linker v6.3r1 Build 19041558 SN 09003382

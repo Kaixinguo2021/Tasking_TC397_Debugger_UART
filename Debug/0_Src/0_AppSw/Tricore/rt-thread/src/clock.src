@@ -1,0 +1,1129 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 09003382"
+	.compiler_invocation	"ctc --dep-file=0_Src\\0_AppSw\\Tricore\\rt-thread\\src\\.clock.o.d --fp-model=c,l,f,z,n,r,S,T -D__CPU__=tc39x -D__CPU_TC39X__ --core=tc1.6.2 --iso=99 -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\0_AppSw\\Config\\Common -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\0_AppSw\\Tricore\\rt-thread\\libcpu -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\0_AppSw\\Tricore\\UART -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\0_AppSw\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\0_AppSw\\Tricore\\Main -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\0_AppSw\\Tricore\\rt-thread -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\0_AppSw\\Tricore\\rt-thread\\include -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\0_AppSw\\Tricore\\rt-thread\\include\\libc -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\0_AppSw\\Tricore\\rt-thread\\libcpu -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\0_AppSw\\Tricore\\rt-thread\\src -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Asclin -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Asclin\\Asc -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\0_AppSw -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\0_AppSw\\Config -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\0_AppSw\\Config\\Common -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\0_AppSw\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\0_AppSw\\Tricore\\Main -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\1_SrvSw -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\1_SrvSw\\_Utilities -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\1_SrvSw\\If -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\1_SrvSw\\If\\Ccu6If -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\1_SrvSw\\StdIf -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\1_SrvSw\\SysSe -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\1_SrvSw\\SysSe\\Bsp -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\1_SrvSw\\SysSe\\Comm -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\1_SrvSw\\SysSe\\General -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\1_SrvSw\\SysSe\\Math -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\1_SrvSw\\SysSe\\Time -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\1_SrvSw\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\1_SrvSw\\Tricore\\Compilers -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\2_CDrv -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\_Build -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\_Impl -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\_Lib -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\_Lib\\DataHandling -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\_Lib\\InternalMux -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\_PinMap -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\_Reg -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Asclin -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Asclin\\Asc -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Asclin\\Lin -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Asclin\\Spi -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Asclin\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Can -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Can\\Can -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Can\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Ccu6 -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Ccu6\\Icu -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Ccu6\\PwmBc -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Ccu6\\PwmHl -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Ccu6\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Ccu6\\Timer -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Ccu6\\TimerWithTrigger -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Ccu6\\TPwm -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Convctrl -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Convctrl\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Cpu -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Cpu\\CStart -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Cpu\\Irq -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Cpu\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Cpu\\Trap -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Dma -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Dma\\Dma -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Dma\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Dts -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Dts\\Dts -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Dts\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Ebu -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Ebu\\BFlashSpansion -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Ebu\\BFlashSt -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Ebu\\Dram -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Ebu\\Sram -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Ebu\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Edsadc -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Edsadc\\Edsadc -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Edsadc\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Emem -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Emem\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Eray -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Eray\\Eray -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Eray\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Evadc -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Evadc\\Adc -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Evadc\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Fce -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Fce\\Crc -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Fce\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Flash -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Flash\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Geth -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Geth\\Eth -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Geth\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Gpt12 -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Gpt12\\IncrEnc -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Gpt12\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Gtm -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Gtm\\Atom -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Gtm\\Atom\\Dtm_PwmHl -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Gtm\\Atom\\Pwm -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Gtm\\Atom\\PwmHl -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Gtm\\Atom\\Timer -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Gtm\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Gtm\\Tim -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Gtm\\Tim\\In -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Gtm\\Tim\\Timer -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Gtm\\Tom -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Gtm\\Tom\\Dtm_PwmHl -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Gtm\\Tom\\Pwm -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Gtm\\Tom\\PwmHl -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Gtm\\Tom\\Timer -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Gtm\\Trig -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Hspdm -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Hspdm\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Hssl -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Hssl\\Hssl -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Hssl\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\I2c -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\I2c\\I2c -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\I2c\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Iom -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Iom\\Driver -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Iom\\Iom -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Iom\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Msc -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Msc\\Msc -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Msc\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Mtu -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Mtu\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Pms -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Pms\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Port -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Port\\Io -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Port\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Psi5 -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Psi5\\Psi5 -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Psi5\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Psi5s -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Psi5s\\Psi5s -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Psi5s\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Qspi -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Qspi\\SpiMaster -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Qspi\\SpiSlave -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Qspi\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Rif -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Rif\\Rif -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Rif\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Scu -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Scu\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Sdmmc -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Sdmmc\\Emmc -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Sdmmc\\Sd -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Sdmmc\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Sent -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Sent\\Sent -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Sent\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Smu -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Smu\\Smu -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Smu\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Spu -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Spu\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Src -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Src\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Stm -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Stm\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Stm\\Timer -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Asclin\\Lin -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Asclin\\Spi -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Asclin\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Geth -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Geth\\Eth -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Geth\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Scu\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\_Build -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\_Impl -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\_Lib -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\_PinMap -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\_Reg -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Asclin -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Can -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Can\\Can -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Can\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\0_AppSw -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\0_AppSw\\Config -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\0_AppSw\\Config\\Common -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\0_AppSw\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\0_AppSw\\Tricore\\Main -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\1_SrvSw -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\1_SrvSw\\_Utilities -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\1_SrvSw\\If -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\1_SrvSw\\If\\Ccu6If -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\1_SrvSw\\StdIf -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\1_SrvSw\\SysSe -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\1_SrvSw\\SysSe\\Bsp -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\1_SrvSw\\SysSe\\Comm -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\1_SrvSw\\SysSe\\General -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\1_SrvSw\\SysSe\\Math -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\1_SrvSw\\SysSe\\Time -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\1_SrvSw\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\1_SrvSw\\Tricore\\Compilers -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\2_CDrv -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\_Build -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\_Impl -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\_Lib -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\_Lib\\DataHandling -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\_Lib\\InternalMux -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\_PinMap -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\_Reg -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Asclin -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Can -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Can\\Can -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Can\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Ccu6 -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Convctrl -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Cpu -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Cpu\\CStart -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Cpu\\Irq -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Cpu\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Cpu\\Trap -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Dma -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Dts -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Edsadc -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Emem -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Eray -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Evadc -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Fce -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Flash -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Geth -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Gpt12 -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Gtm -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Hssl -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\I2c -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Iom -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Msc -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Mtu -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Pms -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Port -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Port\\Io -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Port\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Psi5 -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Psi5s -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Qspi -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Scu -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Sent -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Smu -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Src -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Src\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Stm -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Stm\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\Stm\\Timer -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\0_AppSw -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\0_AppSw\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\1_SrvSw -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\0_AppSw\\Tricore\\Main -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\1_SrvSw\\If -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\1_SrvSw\\StdIf -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\1_SrvSw\\SysSe -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\1_SrvSw\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\1_SrvSw\\Tricore\\Compilers -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\_Impl -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\_Lib -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\_PinMap -ID:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\4_McHal\\Tricore\\_Reg -g2 --make-target=0_Src\\0_AppSw\\Tricore\\rt-thread\\src\\clock.o -t4 --language=-gcc,-volatile,+strings,-kanji --default-near-size=8 -O2 --default-a1-size=0 --default-a0-size=0 --source --align=0 --compact-max-size=200 --switch=auto --error-limit=42 -o 0_Src\\0_AppSw\\Tricore\\rt-thread\\src\\clock.src ..\\0_Src\\0_AppSw\\Tricore\\rt-thread\\src\\clock.c"
+	.compiler_name		"ctc"
+	;source	'..\\0_Src\\0_AppSw\\Tricore\\rt-thread\\src\\clock.c'
+
+	
+$TC162
+	
+	.sdecl	'.text.clock.rt_tick_get',code,cluster('rt_tick_get')
+	.sect	'.text.clock.rt_tick_get'
+	.align	2
+	
+	.global	rt_tick_get
+
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	     1  /*
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	     2   * Copyright (c) 2006-2021, RT-Thread Development Team
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	     3   *
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	     4   * SPDX-License-Identifier: Apache-2.0
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	     5   *
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	     6   * Change Logs:
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	     7   * Date           Author       Notes
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	     8   * 2006-03-12     Bernard      first version
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	     9   * 2006-05-27     Bernard      add support for same priority thread schedule
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    10   * 2006-08-10     Bernard      remove the last rt_schedule in rt_tick_increase
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    11   * 2010-03-08     Bernard      remove rt_passed_second
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    12   * 2010-05-20     Bernard      fix the tick exceeds the maximum limits
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    13   * 2010-07-13     Bernard      fix rt_tick_from_millisecond issue found by kuronca
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    14   * 2011-06-26     Bernard      add rt_tick_set function.
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    15   * 2018-11-22     Jesven       add per cpu tick
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    16   * 2020-12-29     Meco Man     add function rt_tick_get_millisecond()
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    17   */
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    18  
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    19  #include <rthw.h>
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    20  #include <rtthread.h>
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    21  
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    22  #ifdef RT_USING_SMP
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    23  #define rt_tick rt_cpu_index(0)->tick
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    24  #else
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    25  static rt_tick_t rt_tick = 0;
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    26  #endif
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    27  
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    28  /**
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    29   * @addtogroup Clock
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    30   */
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    31  
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    32  /**@{*/
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    33  
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    34  /**
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    35   * This function will return current tick from operating system startup
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    36   *
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    37   * @return current tick
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    38   */
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    39  rt_tick_t rt_tick_get(void)
+; Function rt_tick_get
+.L9:
+rt_tick_get:	.type	func
+
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    40  {
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    41      /* return the global tick */
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    42      return rt_tick;
+	mov	d4,#0
+	call	rt_cpu_index
+	ld.w	d2,[a2]268
+.L83:
+
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    43  }
+	ret
+.L48:
+	
+__rt_tick_get_function_end:
+	.size	rt_tick_get,__rt_tick_get_function_end-rt_tick_get
+.L26:
+	; End of function
+	
+	.sdecl	'.text.clock.rt_tick_set',code,cluster('rt_tick_set')
+	.sect	'.text.clock.rt_tick_set'
+	.align	2
+	
+	.global	rt_tick_set
+
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    44  RTM_EXPORT(rt_tick_get);
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    45  
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    46  /**
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    47   * This function will set current tick
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    48   */
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    49  void rt_tick_set(rt_tick_t tick)
+; Function rt_tick_set
+.L11:
+rt_tick_set:	.type	func
+
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    50  {
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    51      rt_base_t level;
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    52  
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    53      level = rt_hw_interrupt_disable();
+	mov	d15,d4
+	call	rt_cpus_lock
+.L63:
+	mov	d8,d2
+.L65:
+
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    54      rt_tick = tick;
+	mov	d4,#0
+	call	rt_cpu_index
+.L64:
+
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    55      rt_hw_interrupt_enable(level);
+	mov	d4,d8
+	st.w	[a2]268,d15
+.L66:
+	j	rt_cpus_unlock
+.L49:
+	
+__rt_tick_set_function_end:
+	.size	rt_tick_set,__rt_tick_set_function_end-rt_tick_set
+.L31:
+	; End of function
+	
+	.sdecl	'.text.clock.rt_tick_increase',code,cluster('rt_tick_increase')
+	.sect	'.text.clock.rt_tick_increase'
+	.align	2
+	
+	.global	rt_tick_increase
+
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    56  }
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    57  
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    58  /**
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    59   * This function will notify kernel there is one tick passed. Normally,
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    60   * this function is invoked by clock ISR.
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    61   */
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    62  void rt_tick_increase(void)
+; Function rt_tick_increase
+.L13:
+rt_tick_increase:	.type	func
+
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    63  {
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    64      struct rt_thread *thread;
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    65  
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    66      /* increase the global tick */
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    67  #ifdef RT_USING_SMP
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    68      rt_cpu_self()->tick ++;
+	call	rt_cpu_self
+.L92:
+	ld.w	d15,[a2]268
+	add	d15,#1
+	st.w	[a2]268,d15
+.L93:
+
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    69  #else
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    70      ++ rt_tick;
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    71  #endif
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    72  
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    73      /* check time slice */
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    74      thread = rt_thread_self();
+	call	rt_thread_self
+.L67:
+	mov.aa	a15,a2
+.L69:
+
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    75  
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    76      -- thread->remaining_tick;
+	ld.w	d15,[a15]78
+.L94:
+	add	d15,#-1
+	st.w	[a15]78,d15
+.L95:
+
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    77      if (thread->remaining_tick == 0)
+	jne	d15,#0,.L3
+.L56:
+
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    78      {
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    79          rt_base_t level;
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    80          /* change to initialized tick */
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    81          thread->remaining_tick = thread->init_tick;
+	ld.w	d15,[a15]74
+.L96:
+	st.w	[a15]78,d15
+.L97:
+
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    82  
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    83          level = rt_hw_interrupt_disable();
+	call	rt_cpus_lock
+.L68:
+
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    84          thread->stat |= RT_THREAD_STAT_YIELD;
+	ld.bu	d15,[a15]52
+.L98:
+
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    85          rt_hw_interrupt_enable(level);
+	mov	d4,d2
+.L71:
+	or	d15,#8
+	st.b	[a15]52,d15
+.L99:
+	call	rt_cpus_unlock
+.L70:
+
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    86  
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    87          rt_schedule();
+	call	rt_schedule
+.L3:
+
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    88      }
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    89  
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    90      /* check timer */
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    91      rt_timer_check();
+	j	rt_timer_check
+.L53:
+	
+__rt_tick_increase_function_end:
+	.size	rt_tick_increase,__rt_tick_increase_function_end-rt_tick_increase
+.L36:
+	; End of function
+	
+	.sdecl	'.text.clock.rt_tick_from_millisecond',code,cluster('rt_tick_from_millisecond')
+	.sect	'.text.clock.rt_tick_from_millisecond'
+	.align	2
+	
+	.global	rt_tick_from_millisecond
+
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    92  }
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    93  
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    94  /**
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    95   * This function will calculate the tick from millisecond.
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    96   *
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    97   * @param ms the specified millisecond
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    98   *           - Negative Number wait forever
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	    99   *           - Zero not wait
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	   100   *           - Max 0x7fffffff
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	   101   *
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	   102   * @return the calculated tick
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	   103   */
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	   104  rt_tick_t rt_tick_from_millisecond(rt_int32_t ms)
+; Function rt_tick_from_millisecond
+.L15:
+rt_tick_from_millisecond:	.type	func
+
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	   105  {
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	   106      rt_tick_t tick;
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	   107  
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	   108      if (ms < 0)
+	jge	d4,#0,.L4
+.L104:
+
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	   109      {
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	   110          tick = (rt_tick_t)RT_WAITING_FOREVER;
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	   111      }
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	   112      else
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	   113      {
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	   114          tick = RT_TICK_PER_SECOND * (ms / 1000);
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	   115          tick += (RT_TICK_PER_SECOND * (ms % 1000) + 999) / 1000;
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	   116      }
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	   117  
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	   118      /* return the calculated tick */
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	   119      return tick;
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	   120  }
+	mov	d2,#-1
+	ret
+.L4:
+	mov	d15,#1000
+.L105:
+	div	e0,d4,d15
+.L106:
+	mov	d3,#999
+.L107:
+	mul	d2,d0,d15
+.L108:
+	madd	d0,d3,d1,d15
+.L109:
+	div	e0,d0,d15
+.L72:
+	add	d2,d0
+	ret
+.L58:
+	
+__rt_tick_from_millisecond_function_end:
+	.size	rt_tick_from_millisecond,__rt_tick_from_millisecond_function_end-rt_tick_from_millisecond
+.L41:
+	; End of function
+	
+	.sdecl	'.text.clock.rt_tick_get_millisecond',code,cluster('rt_tick_get_millisecond')
+	.sect	'.text.clock.rt_tick_get_millisecond'
+	.align	2
+	
+	.global	rt_tick_get_millisecond
+
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	   121  RTM_EXPORT(rt_tick_from_millisecond);
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	   122  
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	   123  /**
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	   124   * This function will provide the passed millisecond from boot.
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	   125   *
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	   126   * @return passed millisecond from boot
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	   127   */
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	   128  RT_WEAK rt_tick_t rt_tick_get_millisecond(void)
+; Function rt_tick_get_millisecond
+.L17:
+rt_tick_get_millisecond:	.type	func
+
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	   129  {
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	   130  #if 1000 % RT_TICK_PER_SECOND == 0u
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	   131      return rt_tick_get() * (1000u / RT_TICK_PER_SECOND);
+	j	rt_tick_get
+.L62:
+	
+__rt_tick_get_millisecond_function_end:
+	.size	rt_tick_get_millisecond,__rt_tick_get_millisecond_function_end-rt_tick_get_millisecond
+.L46:
+	; End of function
+	
+	.calls	'rt_tick_get','rt_cpu_index'
+	.calls	'rt_tick_set','rt_cpus_lock'
+	.calls	'rt_tick_set','rt_cpu_index'
+	.calls	'rt_tick_set','rt_cpus_unlock'
+	.calls	'rt_tick_increase','rt_cpu_self'
+	.calls	'rt_tick_increase','rt_thread_self'
+	.calls	'rt_tick_increase','rt_cpus_lock'
+	.calls	'rt_tick_increase','rt_cpus_unlock'
+	.calls	'rt_tick_increase','rt_schedule'
+	.calls	'rt_tick_increase','rt_timer_check'
+	.calls	'rt_tick_get_millisecond','rt_tick_get'
+	.calls	'rt_tick_get','',0
+	.calls	'rt_tick_set','',0
+	.calls	'rt_tick_increase','',0
+	.calls	'rt_tick_from_millisecond','',0
+	.weak	rt_tick_get_millisecond
+	.extern	rt_timer_check
+	.extern	rt_thread_self
+	.extern	rt_schedule
+	.extern	rt_cpus_lock
+	.extern	rt_cpus_unlock
+	.extern	rt_cpu_self
+	.extern	rt_cpu_index
+	.calls	'rt_tick_get_millisecond','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L19:
+	.word	2188
+	.half	3
+	.word	.L20
+	.byte	4
+.L18:
+	.byte	1
+	.byte	'..\\0_Src\\0_AppSw\\Tricore\\rt-thread\\src\\clock.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\Debug\\',0,12,1
+	.word	.L21
+.L59:
+	.byte	2
+	.byte	'int',0,4,5,3
+	.word	164
+	.byte	4
+	.byte	'__c11_atomic_thread_fence',0,1,1,1,1,5
+	.word	171
+	.byte	0
+.L47:
+	.byte	2
+	.byte	'unsigned int',0,4,7,6
+	.word	213
+	.byte	7
+	.word	213
+	.byte	8
+	.byte	'__cmpswapw',0
+	.word	229
+	.byte	1,1,1,1,9
+	.byte	'p',0
+	.word	234
+	.byte	9
+	.byte	'value',0
+	.word	213
+	.byte	9
+	.byte	'compare',0
+	.word	213
+	.byte	0
+.L51:
+	.byte	2
+	.byte	'long int',0,4,5,2
+	.byte	'char',0,1,6,10,8
+	.word	303
+	.byte	11,7,0,2
+	.byte	'unsigned char',0,1,8,7
+	.word	.L73-.L19
+.L73:
+	.byte	12
+	.byte	'rt_list_node',0,1,229,2,8,8,13
+	.byte	'next',0
+	.word	337
+	.byte	4,2,35,0,13
+	.byte	'prev',0
+	.word	337
+	.byte	4,2,35,4,0,14
+	.byte	'void',0,7
+	.word	390
+	.byte	2
+	.byte	'unsigned short int',0,2,7,2
+	.byte	'unsigned long int',0,4,7,12
+	.byte	'rt_object',0,1,131,3,8,20,13
+	.byte	'name',0
+	.word	311
+	.byte	8,2,35,0,13
+	.byte	'type',0
+	.word	320
+	.byte	1,2,35,8,13
+	.byte	'flag',0
+	.word	320
+	.byte	1,2,35,9,13
+	.byte	'list',0
+	.word	342
+	.byte	8,2,35,12,0,10,8
+	.word	342
+	.byte	11,0,0,15,1,1,5
+	.word	396
+	.byte	0,7
+	.word	526
+	.byte	12
+	.byte	'rt_timer',0,1,236,3,8,44,13
+	.byte	'parent',0
+	.word	444
+	.byte	20,2,35,0,13
+	.byte	'row',0
+	.word	517
+	.byte	8,2,35,20,13
+	.byte	'timeout_func',0
+	.word	535
+	.byte	4,2,35,28,13
+	.byte	'parameter',0
+	.word	396
+	.byte	4,2,35,32,13
+	.byte	'init_tick',0
+	.word	213
+	.byte	4,2,35,36,13
+	.byte	'timeout_tick',0
+	.word	213
+	.byte	4,2,35,40,0,15,1,1,5
+	.word	.L54-.L19
+	.byte	0,7
+	.word	667
+	.byte	12
+	.byte	'rt_thread',0,1,213,4,8,136,1,13
+	.byte	'name',0
+	.word	311
+	.byte	8,2,35,0,13
+	.byte	'type',0
+	.word	320
+	.byte	1,2,35,8,13
+	.byte	'flags',0
+	.word	320
+	.byte	1,2,35,9,13
+	.byte	'list',0
+	.word	342
+	.byte	8,2,35,12,13
+	.byte	'tlist',0
+	.word	342
+	.byte	8,2,35,20,13
+	.byte	'sp',0
+	.word	396
+	.byte	4,2,35,28,13
+	.byte	'entry',0
+	.word	396
+	.byte	4,2,35,32,13
+	.byte	'parameter',0
+	.word	396
+	.byte	4,2,35,36,13
+	.byte	'stack_addr',0
+	.word	396
+	.byte	4,2,35,40,13
+	.byte	'stack_size',0
+	.word	213
+	.byte	4,2,35,44,13
+	.byte	'error',0
+	.word	291
+	.byte	4,2,35,48,13
+	.byte	'stat',0
+	.word	320
+	.byte	1,2,35,52,13
+	.byte	'bind_cpu',0
+	.word	320
+	.byte	1,2,35,53,13
+	.byte	'oncpu',0
+	.word	320
+	.byte	1,2,35,54,13
+	.byte	'scheduler_lock_nest',0
+	.word	401
+	.byte	2,2,35,56,13
+	.byte	'cpus_lock_nest',0
+	.word	401
+	.byte	2,2,35,58,13
+	.byte	'critical_lock_nest',0
+	.word	401
+	.byte	2,2,35,60,13
+	.byte	'current_priority',0
+	.word	320
+	.byte	1,2,35,62,13
+	.byte	'init_priority',0
+	.word	320
+	.byte	1,2,35,63,13
+	.byte	'number_mask',0
+	.word	213
+	.byte	4,2,35,64,13
+	.byte	'event_set',0
+	.word	213
+	.byte	4,2,35,68,13
+	.byte	'event_info',0
+	.word	320
+	.byte	1,2,35,72,13
+	.byte	'init_tick',0
+	.word	423
+	.byte	4,2,35,74,13
+	.byte	'remaining_tick',0
+	.word	423
+	.byte	4,2,35,78,13
+	.byte	'thread_timer',0
+	.word	540
+	.byte	44,2,35,84,13
+	.byte	'cleanup',0
+	.word	676
+	.byte	4,3,35,128,1,13
+	.byte	'user_data',0
+	.word	423
+	.byte	4,3,35,132,1,0
+.L54:
+	.byte	7
+	.word	681
+	.byte	16
+	.byte	'rt_timer_check',0,2,104,6,1,1,1,1,17
+	.byte	'rt_thread_t',0,1,160,5,27
+	.word	1212
+	.byte	18
+	.byte	'rt_thread_self',0,2,137,1,13
+	.word	1240
+	.byte	1,1,1,1,7
+	.word	681
+	.byte	16
+	.byte	'rt_schedule',0,2,180,1,6,1,1,1,1,18
+	.byte	'rt_cpus_lock',0,2,224,3,11
+	.word	291
+	.byte	1,1,1,1,19
+	.byte	'rt_cpus_unlock',0,2,225,3,6,1,1,1,1,20
+	.byte	'level',0,2,225,3,31
+	.word	291
+	.byte	0,10,128,2
+	.word	342
+	.byte	11,31,0,12
+	.byte	'rt_cpu',0,1,189,4,8,144,2,13
+	.byte	'current_thread',0
+	.word	1212
+	.byte	4,2,35,0,13
+	.byte	'irq_nest',0
+	.word	401
+	.byte	2,2,35,4,13
+	.byte	'irq_switch_flag',0
+	.word	320
+	.byte	1,2,35,6,13
+	.byte	'current_priority',0
+	.word	320
+	.byte	1,2,35,7,13
+	.byte	'priority_table',0
+	.word	1381
+	.byte	128,2,2,35,8,13
+	.byte	'priority_group',0
+	.word	213
+	.byte	4,3,35,136,2,13
+	.byte	'tick',0
+	.word	213
+	.byte	4,3,35,140,2,0,7
+	.word	1391
+	.byte	18
+	.byte	'rt_cpu_self',0,2,227,3,16
+	.word	1564
+	.byte	1,1,1,1,21
+	.byte	'rt_cpu_index',0,2,228,3,16
+	.word	1564
+	.byte	1,1,1,1,20
+	.byte	'index',0,2,228,3,33
+	.word	164
+	.byte	0,17
+	.byte	'__size_t',0,3,1,1
+	.word	213
+	.byte	22,1,7
+	.word	1653
+	.byte	17
+	.byte	'__codeptr',0,3,1,1
+	.word	1655
+	.byte	17
+	.byte	'__intptr_t',0,3,1,1
+	.word	164
+	.byte	17
+	.byte	'__uintptr_t',0,3,1,1
+	.word	213
+	.byte	17
+	.byte	'rt_int32_t',0,1,68,41
+	.word	164
+	.byte	17
+	.byte	'rt_uint8_t',0,1,69,41
+	.word	320
+	.byte	17
+	.byte	'rt_uint16_t',0,1,70,41
+	.word	401
+	.byte	17
+	.byte	'rt_uint32_t',0,1,71,41
+	.word	213
+	.byte	17
+	.byte	'rt_base_t',0,1,83,41
+	.word	291
+	.byte	17
+	.byte	'rt_ubase_t',0,1,84,41
+	.word	423
+	.byte	17
+	.byte	'rt_err_t',0,1,86,41
+	.word	291
+	.byte	17
+	.byte	'rt_tick_t',0,1,88,41
+	.word	213
+	.byte	17
+	.byte	'rt_size_t',0,1,90,41
+	.word	423
+	.byte	17
+	.byte	'rt_list_t',0,1,234,2,29
+	.word	342
+	.byte	7
+	.word	.L74-.L19
+.L74:
+	.byte	12
+	.byte	'rt_slist_node',0,1,239,2,8,4,13
+	.byte	'next',0
+	.word	1904
+	.byte	4,2,35,0,0,17
+	.byte	'rt_slist_t',0,1,243,2,30
+	.word	1909
+	.byte	17
+	.byte	'uint16_t',0,4,246,1,41
+	.word	401
+	.byte	17
+	.byte	'uint32_t',0,4,254,1,41
+	.word	213
+	.byte	17
+	.byte	'time_t',0,5,44,25
+	.word	423
+	.byte	17
+	.byte	'fd_mask',0,6,39,17
+	.word	291
+	.byte	15,1,1,5
+	.word	164
+	.byte	5
+	.word	396
+	.byte	0,7
+	.word	2031
+	.byte	17
+	.byte	'rt_isr_handler_t',0,7,73,16
+	.word	2045
+	.byte	12
+	.byte	'__arch_tickets',0,7,140,1,12,4,13
+	.byte	'owner',0
+	.word	401
+	.byte	2,2,35,0,13
+	.byte	'next',0
+	.word	401
+	.byte	2,2,35,2,0,23,7,138,1,9,4,13
+	.byte	'slock',0
+	.word	423
+	.byte	4,2,35,0,13
+	.byte	'tickets',0
+	.word	2075
+	.byte	4,2,35,0,0,17
+	.byte	'rt_hw_spinlock_t',0,7,144,1,3
+	.word	2126
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L20:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,38,0,73,19,0,0,4,46,1,3,8,54
+	.byte	15,39,12,63,12,60,12,0,0,5,5,0,73,19,0,0,6,53,0,73,19,0,0,7,15,0,73,19,0,0,8,46,1,3,8,73,19,54,15,39,12
+	.byte	63,12,60,12,0,0,9,5,0,3,8,73,19,0,0,10,1,1,11,15,73,19,0,0,11,33,0,47,15,0,0,12,19,1,3,8,58,15,59,15,57
+	.byte	15,11,15,0,0,13,13,0,3,8,73,19,11,15,56,9,0,0,14,59,0,3,8,0,0,15,21,1,54,15,39,12,0,0,16,46,0,3,8,58,15
+	.byte	59,15,57,15,54,15,39,12,63,12,60,12,0,0,17,22,0,3,8,58,15,59,15,57,15,73,19,0,0,18,46,0,3,8,58,15,59,15
+	.byte	57,15,73,19,54,15,39,12,63,12,60,12,0,0,19,46,1,3,8,58,15,59,15,57,15,54,15,39,12,63,12,60,12,0,0,20,5
+	.byte	0,3,8,58,15,59,15,57,15,73,19,0,0,21,46,1,3,8,58,15,59,15,57,15,73,19,54,15,39,12,63,12,60,12,0,0,22,21
+	.byte	0,54,15,0,0,23,23,1,58,15,59,15,57,15,11,15,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L21:
+	.word	.L76-.L75
+.L75:
+	.half	3
+	.word	.L78-.L77
+.L77:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'D:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\0_AppSw\\Tricore\\rt-thread\\include',0
+	.byte	'D:\\App\\Tasking6_3_Install\\ctc\\include\\',0
+	.byte	'D:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\0_Src\\0_AppSw\\Tricore\\rt-thread\\include\\libc',0
+	.byte	0
+	.byte	'rtdef.h',0,1,0,0
+	.byte	'rtthread.h',0,1,0,0
+	.byte	'..\\0_Src\\0_AppSw\\Tricore\\rt-thread\\src\\clock.c',0,0,0,0
+	.byte	'stdint.h',0,2,0,0
+	.byte	'time.h',0,2,0,0
+	.byte	'libc_fdset.h',0,3,0,0
+	.byte	'rthw.h',0,1,0,0,0
+.L78:
+.L76:
+	.sdecl	'.debug_info',debug,cluster('rt_tick_get')
+	.sect	'.debug_info'
+.L22:
+	.word	215
+	.half	3
+	.word	.L23
+	.byte	4,1
+	.byte	'..\\0_Src\\0_AppSw\\Tricore\\rt-thread\\src\\clock.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\Debug\\',0,12,1
+	.word	.L25,.L24
+	.byte	2
+	.word	.L18
+	.byte	3
+	.byte	'rt_tick_get',0,1,39,11
+	.word	.L47
+	.byte	1,1,1
+	.word	.L9,.L48,.L8
+	.byte	4
+	.word	.L9,.L48
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('rt_tick_get')
+	.sect	'.debug_abbrev'
+.L23:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('rt_tick_get')
+	.sect	'.debug_line'
+.L24:
+	.word	.L80-.L79
+.L79:
+	.half	3
+	.word	.L82-.L81
+.L81:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\0_Src\\0_AppSw\\Tricore\\rt-thread\\src\\clock.c',0,0,0,0,0
+.L82:
+	.byte	5,12,7,0,5,2
+	.word	.L9
+	.byte	3,41,1,5,1,9
+	.half	.L83-.L9
+	.byte	3,1,1,7,9
+	.half	.L26-.L83
+	.byte	0,1,1
+.L80:
+	.sdecl	'.debug_ranges',debug,cluster('rt_tick_get')
+	.sect	'.debug_ranges'
+.L25:
+	.word	-1,.L9,0,.L26-.L9,0,0
+	.sdecl	'.debug_info',debug,cluster('rt_tick_set')
+	.sect	'.debug_info'
+.L27:
+	.word	247
+	.half	3
+	.word	.L28
+	.byte	4,1
+	.byte	'..\\0_Src\\0_AppSw\\Tricore\\rt-thread\\src\\clock.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\Debug\\',0,12,1
+	.word	.L30,.L29
+	.byte	2
+	.word	.L18
+	.byte	3
+	.byte	'rt_tick_set',0,1,49,6,1,1,1
+	.word	.L11,.L49,.L10
+	.byte	4
+	.byte	'tick',0,1,49,28
+	.word	.L47,.L50
+	.byte	5
+	.word	.L11,.L49
+	.byte	6
+	.byte	'level',0,1,51,15
+	.word	.L51,.L52
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('rt_tick_set')
+	.sect	'.debug_abbrev'
+.L28:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('rt_tick_set')
+	.sect	'.debug_line'
+.L29:
+	.word	.L85-.L84
+.L84:
+	.half	3
+	.word	.L87-.L86
+.L86:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\0_Src\\0_AppSw\\Tricore\\rt-thread\\src\\clock.c',0,0,0,0,0
+.L87:
+	.byte	5,6,7,0,5,2
+	.word	.L11
+	.byte	3,48,1,5,36,3,4,1,5,11,9
+	.half	.L63-.L11
+	.byte	1,5,5,9
+	.half	.L65-.L63
+	.byte	3,1,1,5,28,9
+	.half	.L64-.L65
+	.byte	3,1,1,5,13,3,127,1,5,28,9
+	.half	.L66-.L64
+	.byte	3,1,1,5,1,7,9
+	.half	.L31-.L66
+	.byte	3,1,0,1,1
+.L85:
+	.sdecl	'.debug_ranges',debug,cluster('rt_tick_set')
+	.sect	'.debug_ranges'
+.L30:
+	.word	-1,.L11,0,.L31-.L11,0,0
+	.sdecl	'.debug_info',debug,cluster('rt_tick_increase')
+	.sect	'.debug_info'
+.L32:
+	.word	264
+	.half	3
+	.word	.L33
+	.byte	4,1
+	.byte	'..\\0_Src\\0_AppSw\\Tricore\\rt-thread\\src\\clock.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\Debug\\',0,12,1
+	.word	.L35,.L34
+	.byte	2
+	.word	.L18
+	.byte	3
+	.byte	'rt_tick_increase',0,1,62,6,1,1,1
+	.word	.L13,.L53,.L12
+	.byte	4
+	.word	.L13,.L53
+	.byte	5
+	.byte	'thread',0,1,64,23
+	.word	.L54,.L55
+	.byte	4
+	.word	.L56,.L3
+	.byte	5
+	.byte	'level',0,1,79,19
+	.word	.L51,.L57
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('rt_tick_increase')
+	.sect	'.debug_abbrev'
+.L33:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,1,17,1,18,1,0,0,5,52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('rt_tick_increase')
+	.sect	'.debug_line'
+.L34:
+	.word	.L89-.L88
+.L88:
+	.half	3
+	.word	.L91-.L90
+.L90:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\0_Src\\0_AppSw\\Tricore\\rt-thread\\src\\clock.c',0,0,0,0,0
+.L91:
+	.byte	5,16,7,0,5,2
+	.word	.L13
+	.byte	3,195,0,1,5,25,9
+	.half	.L92-.L13
+	.byte	1,5,28,9
+	.half	.L93-.L92
+	.byte	3,6,1,5,12,9
+	.half	.L67-.L93
+	.byte	1,5,14,9
+	.half	.L69-.L67
+	.byte	3,2,1,5,5,9
+	.half	.L94-.L69
+	.byte	1,9
+	.half	.L95-.L94
+	.byte	3,1,1,5,40,7,9
+	.half	.L56-.L95
+	.byte	3,4,1,5,32,9
+	.half	.L96-.L56
+	.byte	1,5,40,9
+	.half	.L97-.L96
+	.byte	3,2,1,5,15,9
+	.half	.L68-.L97
+	.byte	3,1,1,5,32,9
+	.half	.L98-.L68
+	.byte	3,1,1,5,22,9
+	.half	.L71-.L98
+	.byte	3,127,1,5,32,9
+	.half	.L99-.L71
+	.byte	3,1,1,5,20,9
+	.half	.L70-.L99
+	.byte	3,2,1,5,19,9
+	.half	.L3-.L70
+	.byte	3,4,1,5,1,7,9
+	.half	.L36-.L3
+	.byte	3,1,0,1,1
+.L89:
+	.sdecl	'.debug_ranges',debug,cluster('rt_tick_increase')
+	.sect	'.debug_ranges'
+.L35:
+	.word	-1,.L13,0,.L36-.L13,0,0
+	.sdecl	'.debug_info',debug,cluster('rt_tick_from_millisecond')
+	.sect	'.debug_info'
+.L37:
+	.word	261
+	.half	3
+	.word	.L38
+	.byte	4,1
+	.byte	'..\\0_Src\\0_AppSw\\Tricore\\rt-thread\\src\\clock.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\Debug\\',0,12,1
+	.word	.L40,.L39
+	.byte	2
+	.word	.L18
+	.byte	3
+	.byte	'rt_tick_from_millisecond',0,1,104,11
+	.word	.L47
+	.byte	1,1,1
+	.word	.L15,.L58,.L14
+	.byte	4
+	.byte	'ms',0,1,104,47
+	.word	.L59,.L60
+	.byte	5
+	.word	.L15,.L58
+	.byte	6
+	.byte	'tick',0,1,106,15
+	.word	.L47,.L61
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('rt_tick_from_millisecond')
+	.sect	'.debug_abbrev'
+.L38:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('rt_tick_from_millisecond')
+	.sect	'.debug_line'
+.L39:
+	.word	.L101-.L100
+.L100:
+	.half	3
+	.word	.L103-.L102
+.L102:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\0_Src\\0_AppSw\\Tricore\\rt-thread\\src\\clock.c',0,0,0,0,0
+.L103:
+	.byte	5,5,7,0,5,2
+	.word	.L15
+	.byte	3,235,0,1,5,14,7,9
+	.half	.L104-.L15
+	.byte	3,2,1,5,1,3,10,1,5,60,7,9
+	.half	.L4-.L104
+	.byte	3,123,1,5,41,9
+	.half	.L105-.L4
+	.byte	3,127,1,5,53,9
+	.half	.L106-.L105
+	.byte	3,1,1,5,35,9
+	.half	.L107-.L106
+	.byte	3,127,1,5,51,9
+	.half	.L108-.L107
+	.byte	3,1,1,5,58,9
+	.half	.L109-.L108
+	.byte	1,5,14,9
+	.half	.L72-.L109
+	.byte	1,5,1,3,5,1,7,9
+	.half	.L41-.L72
+	.byte	0,1,1
+.L101:
+	.sdecl	'.debug_ranges',debug,cluster('rt_tick_from_millisecond')
+	.sect	'.debug_ranges'
+.L40:
+	.word	-1,.L15,0,.L41-.L15,0,0
+	.sdecl	'.debug_info',debug,cluster('rt_tick_get_millisecond')
+	.sect	'.debug_info'
+.L42:
+	.word	228
+	.half	3
+	.word	.L43
+	.byte	4,1
+	.byte	'..\\0_Src\\0_AppSw\\Tricore\\rt-thread\\src\\clock.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\WorkSpace\\Tasking\\Tasking_TC397_Debugger_UART\\Debug\\',0,12,1
+	.word	.L45,.L44
+	.byte	2
+	.word	.L18
+	.byte	3
+	.byte	'rt_tick_get_millisecond',0,1,128,1,19
+	.word	.L47
+	.byte	1,1,1
+	.word	.L17,.L62,.L16
+	.byte	4
+	.word	.L17,.L62
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('rt_tick_get_millisecond')
+	.sect	'.debug_abbrev'
+.L43:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('rt_tick_get_millisecond')
+	.sect	'.debug_line'
+.L44:
+	.word	.L111-.L110
+.L110:
+	.half	3
+	.word	.L113-.L112
+.L112:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\0_Src\\0_AppSw\\Tricore\\rt-thread\\src\\clock.c',0,0,0,0,0
+.L113:
+	.byte	5,23,7,0,5,2
+	.word	.L17
+	.byte	3,130,1,1,5,1,7,9
+	.half	.L46-.L17
+	.byte	3,6,0,1,1
+.L111:
+	.sdecl	'.debug_ranges',debug,cluster('rt_tick_get_millisecond')
+	.sect	'.debug_ranges'
+.L45:
+	.word	-1,.L17,0,.L46-.L17,0,0
+	.sdecl	'.debug_loc',debug,cluster('rt_tick_from_millisecond')
+	.sect	'.debug_loc'
+.L60:
+	.word	-1,.L15,0,.L58-.L15
+	.half	1
+	.byte	84
+	.word	0,0
+.L14:
+	.word	-1,.L15,0,.L58-.L15
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L61:
+	.word	-1,.L15,.L72-.L15,.L58-.L15
+	.half	1
+	.byte	82
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('rt_tick_get')
+	.sect	'.debug_loc'
+.L8:
+	.word	-1,.L9,0,.L48-.L9
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('rt_tick_get_millisecond')
+	.sect	'.debug_loc'
+.L16:
+	.word	-1,.L17,0,.L62-.L17
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('rt_tick_increase')
+	.sect	'.debug_loc'
+.L57:
+	.word	-1,.L13,.L68-.L13,.L70-.L13
+	.half	1
+	.byte	82
+	.word	.L71-.L13,.L70-.L13
+	.half	1
+	.byte	84
+	.word	0,0
+.L12:
+	.word	-1,.L13,0,.L53-.L13
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L55:
+	.word	-1,.L13,.L67-.L13,.L68-.L13
+	.half	1
+	.byte	98
+	.word	.L69-.L13,.L53-.L13
+	.half	1
+	.byte	111
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('rt_tick_set')
+	.sect	'.debug_loc'
+.L52:
+	.word	-1,.L11,.L63-.L11,.L64-.L11
+	.half	1
+	.byte	82
+	.word	.L65-.L11,.L49-.L11
+	.half	1
+	.byte	88
+	.word	.L66-.L11,.L49-.L11
+	.half	1
+	.byte	84
+	.word	0,0
+.L10:
+	.word	-1,.L11,0,.L49-.L11
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L50:
+	.word	-1,.L11,0,.L63-.L11
+	.half	1
+	.byte	84
+	.word	.L63-.L11,.L49-.L11
+	.half	1
+	.byte	95
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L114:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,27,8,26,8,28,8,29,8,30,8,31,8,34,8,35,8,32,8,33,8,16,8,17,8,24,8,25,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('rt_tick_get')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L114,.L9,.L48-.L9
+	.sdecl	'.debug_frame',debug,cluster('rt_tick_set')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L114,.L11,.L49-.L11
+	.sdecl	'.debug_frame',debug,cluster('rt_tick_increase')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L114,.L13,.L53-.L13
+	.sdecl	'.debug_frame',debug,cluster('rt_tick_from_millisecond')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L114,.L15,.L58-.L15
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('rt_tick_get_millisecond')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L114,.L17,.L62-.L17
+
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	   132  #else
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	   133      #warning "rt-thread cannot provide a correct 1ms-based tick any longer,\ 
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	   134      please redefine this function in another file by using a high-precision hard-timer."
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	   135      return 0;
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	   136  #endif
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	   137  }
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	   138  
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	   139  /**@}*/
+; ..\0_Src\0_AppSw\Tricore\rt-thread\src\clock.c	   140  
+
+	; Module end
